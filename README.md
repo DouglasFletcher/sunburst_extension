@@ -1,5 +1,5 @@
-# sunburst_extension
-add customizations to sunburst d3 graph
+# sunburst extensions
+## add customizations to sunburst d3 graph
 
 The purpose of this repository is to add to base d3 Sunburst graph https://bl.ocks.org/kerryrodden/7090426. Instead of processing csv 
 file to json on-the-fly in javascript, this is moved back to preprocessing script in python. I did not test the speed of this, but it 
