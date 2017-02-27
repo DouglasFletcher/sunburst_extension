@@ -1,0 +1,9 @@
+var colors = {
+"KPI One: Count" : "rbg()",
+"Consumer Action One" : "rbg()",
+"KPI Two: Count" : "rbg()",
+"KPI Three: Count" : "rbg()",
+"Consumer Action Two" : "rbg()",
+"Consumer Action Three" : "rbg()",
+"KPI Four: Count" : "rbg()"
+};

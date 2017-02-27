@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+
+	<!-- Douglas Fletcher: 2016.06.08 -->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sequences sunburst</title>
+		<link rel="stylesheet" type="text/css"
+			href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+		<!-- specific formatting !-->
+		<link rel="stylesheet" type="text/css" href="css/sequences.css"/>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<!-- Form controls: TODO: Add positioning horizontal, multiscreen -->
+		<div class="bottom-buffer container-fluid" id="formContainer">
+			<!<form class="locator form-inline inline-block">
+			<form>
+				<!-- Record Type -->
+				<div class="form-group col-xs-4 col-md-4">
+					<label class="labelSize" for="RecordType">Success Type</label>
+					<select class="form-control" id="RecordType">
+						<option values="Total">Total</option>
+						<option values="KPI One: Count">KPI One: Count</option>
+						<option values="KPI Two: Count">KPI Two: Count</option>
+						<option values="KPI Three: Count">KPI Three: Count</option>
+						<option values="KPI Four: Count">KPI Four: Count</option>
+					</select>
+				</div>
+			</form>
+		<div>
+
+		<!-- Graphic d3 -->
+		<!-- Text in middle sunburst diagram -->
+		<div id="main">
+
+			<div id="sequence">
+			</div>
+
+			<div id="chart">
+				<div id="explanation" style="visibility: hidden;">
+					<span id="percentage"></span><br/>of conversions end with this sequence of pages
+				</div>
+			</div>
+
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- d3 plugins -->
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<!-- graph functions: THIS IS WHERE GRAPH COMES FROM -->
+		<script type="text/javascript" src="js/sequences_colors.js"></script>
+		<script type="text/javascript" src="js/sequences.js"></script>
+
+	</body>
+</html>
